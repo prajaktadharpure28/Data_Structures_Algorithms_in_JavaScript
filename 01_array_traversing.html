@@ -13,7 +13,11 @@
 
         function getElement(){
             let el = document.getElementById('element').value
+            if(el<data.length){
             alert(data[el])
+            }else{
+                alert('Please enter valid input')
+            }
         }
     </script>
 </head>
